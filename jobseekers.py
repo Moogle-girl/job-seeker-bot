@@ -37,8 +37,7 @@ phrase_end = ['Training provided.', 'Must have own vehicle.', 'Commission only.'
 
 def build_phrase():
     """Build the phrase we will be tweeting."""
-    phrase = random.choice(phrase_company) + " " + random.choice(phrase_seeks) + " " + random.choice(phrase_victim) + " " +
-        random.choice(phrase_with) + " " + random.choice(phrase_for) + " " + random.choice(phrase_end)
+    phrase = random.choice(phrase_company) + " " + random.choice(phrase_seeks) + " " + random.choice(phrase_victim) + " " + random.choice(phrase_with) + " " + random.choice(phrase_for) + " " + random.choice(phrase_end)
     return phrase
 
 def count_chara(phrase):
